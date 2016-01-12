@@ -1,0 +1,430 @@
+xjia@gpu-ib-16:~/HEALPix/partitioned_overlapped$sh run.sh
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPID_nem_ofacm_init(): Init
+[3] MPID_nem_ofacm_init(): Init
+[4] MPID_nem_ofacm_init(): Init
+[2] MPID_nem_ofacm_init(): Init
+[5] MPID_nem_ofacm_init(): Init
+[0] MPI startup(): ofa data transfer mode
+[3] MPI startup(): ofa data transfer mode
+[4] MPI startup(): ofa data transfer mode
+[2] MPI startup(): ofa data transfer mode
+[5] MPI startup(): ofa data transfer mode
+[1] MPID_nem_ofacm_init(): Init
+[1] MPI startup(): ofa data transfer mode
+ref_N 78498820
+ref_N sam_N 124605660
+--------------
+Rank 5 Processor_name gpu-ib-11
+------------------
+78498820
+sam_N 124605660
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       56876    gpu-ib-16  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 1       29989    gpu-ib-15  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 2       44898    gpu-ib-13  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 3       31799    gpu-ib-14  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 4       52197    gpu-ib-12  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 5       11853    gpu-ib-11  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+gpu-ib-11 starts at Tue Nov 24 14:49:30 2015
+
+--------------
+Rank 3 Processor_name gpu-ib-14
+------------------
+ref_N 78498820
+sam_N ref_N ref_N gpu-ib-14 starts at Tue Nov 24 14:49:29 2015
+
+124605660
+--------------
+Rank 1 Processor_name gpu-ib-15
+------------------
+78498820
+sam_N 124605660
+78498820
+sam_N gpu-ib-15 starts at Tue Nov 24 14:49:30 2015
+
+--------------
+Rank 2 Processor_name gpu-ib-13
+------------------
+124605660
+--------------
+Rank 4 Processor_name gpu-ib-12
+------------------
+gpu-ib-13 starts at Tue Nov 24 14:49:30 2015
+
+gpu-ib-12 starts at Tue Nov 24 14:49:30 2015
+
+[0] MPI startup(): I_MPI_DEBUG=5
+[0] MPI startup(): I_MPI_FABRICS=ofa
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_DIST=10,20,20,10
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_MAP=mlx4_0:1
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_NUM=2
+[0] MPI startup(): I_MPI_PIN_MAPPING=1:0 0
+ref_N 78498820
+sam_N 124605660
+--------------
+Rank 0 Processor_name gpu-ib-16
+------------------
+gpu-ib-16 starts at Tue Nov 24 14:49:30 2015
+
+rank-2 load_ref_file 2.327 s
+rank-1 load_ref_file 2.390 s
+rank-3 load_ref_file 2.408 s
+rank-0 load_ref_file 2.408 s
+rank-5 load_ref_file 3.194 s
+rank-4 load_ref_file 3.295 s
+rank-2 load_sam_file 3.974 s
+rank-2 finishing loading file Tue Nov 24 14:49:36 2015
+
+rank-3 load_sam_file 3.927 s
+rank-3 finishing loading file Tue Nov 24 14:49:36 2015
+
+rank-1 load_sam_file 4.044 s
+rank-1 finishing loading file Tue Nov 24 14:49:36 2015
+
+rank-0 load_sam_file 4.257 s
+rank-0 finishing loading file Tue Nov 24 14:49:36 2015
+
+rank-2 thread-1 indexSample 0.788 s
+rank-3 thread-1 indexSample 0.788 s
+rank-1 thread-1 indexSample 0.831 s
+rank-4 load_sam_file 4.083 s
+rank-4 finishing loading file Tue Nov 24 14:49:37 2015
+
+rank-0 thread-1 indexSample 0.830 s
+rank-4 thread-1 indexSample 0.776 s
+rank-5 load_sam_file 5.083 s
+rank-5 finishing loading file Tue Nov 24 14:49:38 2015
+
+rank-5 thread-1 indexSample 0.841 s
+rank-3 thread-1 sort sample 4.133 s
+rank-2 thread-1 sort sample 4.383 s
+rank-1 thread-1 sort sample 4.316 s
+rank-0 thread-1 sort sample 4.816 s
+rank-4 thread-1 sort sample 4.378 s
+rank-5 thread-1 sort sample 4.541 s
+rank-0 thread-0 computeSI 11.282 s
+rank-3 thread-0 computeSI 12.000 s
+rank-1 thread-0 computeSI 11.985 s
+rank-2 thread-0 computeSI 13.417 s
+rank-4 thread-0 computeSI 13.397 s
+rank-5 thread-0 computeSI 13.378 s
+rank-0 thread-0 count_ref 3.844 s
+rank-0 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:51 2015
+
+rank-3 thread-0 count_ref 3.724 s
+rank-3 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:51 2015
+
+rank-1 thread-0 count_ref 3.860 s
+rank-1 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:52 2015
+
+rank-2 thread-0 count_ref 3.705 s
+rank-2 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:53 2015
+
+rank-0  before gather
+rank-4 thread-0 count_ref 3.761 s
+rank-4 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:54 2015
+
+rank-5 thread-0 count_ref 3.759 s
+rank-5 after computeSI/count_ref and indexSample/sortSample Tue Nov 24 14:49:55 2015
+
+rank-0 recv from rank-1 cntChunk
+rank-0 recv from rank-2 cntChunk
+rank-0 recv from rank-3 cntChunk
+rank-0 recv from rank-4 cntChunk
+rank-0 recv from rank-5 cntChunk
+rank-0  after gather
+avg sum 6.03883e+08
+[0,155190117] -> 603882769
+[155190118,193715100] -> 603882763
+[193715101,429683085] -> 603882798
+[429683086,525495868] -> 603882789
+[525495869,639508200] -> 603882798
+[639508201,805306367]
+rank-0 worker_gather 11.079 s
+rank-1 worker_gather 10.688 s
+rank-4 worker_gather 8.435 s
+rank-3 worker_gather 10.909 s
+rank-5 worker_gather 7.563 s
+rank-2 worker_gather 9.548 s
+rank-1 cal_samChunk 0.644 s
+rank-4 cal_samChunk 0.647 s
+rank-0 cal_samChunk 0.780 s
+rank-5 cal_samChunk 0.743 s
+rank-2 cal_samChunk 0.761 s
+rank-0 gather sample chunk size costs 0.125 s
+rank-3 cal_samChunk 0.803 s
+rank-3 gather sample chunk size costs 0.000 s
+rank-1 gather sample chunk size costs 0.163 s
+rank-2 gather sample chunk size costs 0.032 s
+rank-4 gather sample chunk size costs 0.156 s
+rank-5 gather sample chunk size costs 0.054 s
+rank-4 communication cost 4.281 s
+rank-3 communication cost 4.280 s
+rank-4 redistribute_S 4.593 s
+rank-3 redistribute_S 4.451 s
+rank-2 communication cost 4.661 s
+rank-1 communication cost 4.661 s
+rank-5 communication cost 4.769 s
+rank-0 communication cost 4.769 s
+rank-1 redistribute_S 4.959 s
+rank-2 redistribute_S 5.105 s
+rank-0 redistribute_S 5.228 s
+rank-5 redistribute_S 5.158 s
+rank-1 sort sample 1.205 s
+rank-1 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:09 2015
+
+rank-3 sort sample 2.546 s
+rank-3 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:10 2015
+
+rank-4 sort sample 2.925 s
+rank-4 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:11 2015
+
+rank-5 sort sample 4.257 s
+rank-5 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:13 2015
+
+rank-0 sort sample 4.328 s
+rank-0 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:13 2015
+
+rank-1 transfer_ref costs 3.742 s
+rank-3 transfer_ref costs 3.344 s
+rank-2 sort sample 5.688 s
+rank-2 after worker_gather / cal_samChunk / redistribute_S / sortSample Tue Nov 24 14:50:14 2015
+
+rank-4 transfer_ref costs 3.409 s
+rank-3 threadId-0 sort reference costs 1.853 s
+rank-4 threadId-0 sort reference costs 2.117 s
+rank-5 transfer_ref costs 3.645 s
+rank-0 transfer_ref costs 3.726 s
+rank-1 threadId-0 sort reference costs 3.809 s
+rank-2 transfer_ref costs 3.572 s
+rank-3 sum 22582803
+rank-3 ave 0.327002
+rank-3 thread-0 singleCM-0 costs 3.618 s
+rank-5 threadId-0 sort reference costs 3.139 s
+rank-0 threadId-0 sort reference costs 3.072 s
+rank-4 transfer_ref costs 3.712
+rank-5 transfer_ref costs 4.137
+rank-1 transfer_ref costs 4.018
+rank-0 transfer_ref costs 4.298
+rank-2 threadId-0 sort reference costs 3.211 s
+rank-3 transfer_ref costs 3.596
+rank-2 transfer_ref costs 4.504
+rank-5 thread-1 communication costs 3.453
+rank-4 thread-1 communication costs 3.879
+rank-0 sum 36320247
+rank-0 ave 0.3215
+rank-0 thread-0 singleCM-0 costs 4.571 s
+rank-4 sum 26736885
+rank-4 ave 0.32628
+rank-4 thread-0 singleCM-0 costs 8.400 s
+rank-5 sum 35606225
+rank-5 ave 0.312397
+rank-5 thread-0 singleCM-0 costs 5.438 s
+rank-1 thread-1 communication costs 4.660
+rank-0 thread-1 communication costs 4.380
+rank-2 sum 35061655
+rank-2 ave 0.299541
+rank-2 thread-0 singleCM-0 costs 5.213 s
+rank-3 thread-1 communication costs 5.583
+rank-2 thread-1 communication costs 4.676
+rank-5 threadId-1 sort reference costs 2.212 s
+rank-4 threadId-1 sort reference costs 2.579 s
+rank-0 threadId-1 sort reference costs 2.666 s
+rank-2 threadId-1 sort reference costs 2.463 s
+rank-1 sum 48321040
+rank-1 ave 1.08022
+rank-1 thread-0 singleCM-0 costs 12.943 s
+rank-2 transfer_ref costs 3.598
+rank-0 transfer_ref costs 3.654
+rank-5 transfer_ref costs 3.543
+rank-3 transfer_ref costs 3.717
+rank-3 threadId-1 sort reference costs 4.099 s
+rank-4 sum 30619750
+rank-4 ave 0.312409
+rank-4 thread-1 singleCM-1 costs 4.420 s
+rank-2 thread-0 communication costs 2.172
+rank-0 thread-0 communication costs 2.117
+rank-4 transfer_ref costs 3.234
+rank-0 sum 32324487
+rank-0 ave 0.31348
+rank-0 thread-1 singleCM-1 costs 5.386 s
+rank-1 threadId-1 sort reference costs 3.614 s
+rank-1 transfer_ref costs 3.995
+rank-5 thread-0 communication costs 3.540
+rank-3 thread-0 communication costs 3.505
+rank-0 threadId-0 sort reference costs 2.125 s
+rank-2 sum 28611507
+rank-2 ave 0.306671
+rank-2 thread-1 singleCM-1 costs 6.047 s
+rank-5 sum 27544855
+rank-5 ave 0.320272
+rank-5 thread-1 singleCM-1 costs 8.554 s
+rank-4 thread-0 communication costs 3.134
+rank-1 thread-0 communication costs 2.369
+rank-2 threadId-0 sort reference costs 1.800 s
+rank-5 threadId-0 sort reference costs 2.346 s
+rank-4 threadId-0 sort reference costs 2.058 s
+rank-0 sum 24677640
+rank-0 ave 0.315161
+rank-0 thread-0 singleCM-2 costs 3.798 s
+rank-2 transfer_ref costs 3.570
+rank-4 transfer_ref costs 3.909
+rank-3 sum 50728257
+rank-3 ave 0.556825
+rank-3 thread-1 singleCM-1 costs 9.982 s
+rank-4 thread-1 communication costs 3.315
+rank-2 thread-1 communication costs 3.625
+rank-5 sum 27390919
+rank-5 ave 0.318992
+rank-5 thread-0 singleCM-2 costs 5.639 s
+rank-2 sum 21856921
+rank-2 ave 0.309856
+rank-2 thread-0 singleCM-2 costs 6.856 s
+rank-0 transfer_ref costs 3.270
+rank-3 threadId-0 sort reference costs 3.428 s
+rank-4 sum 24046642
+rank-4 ave 0.319391
+rank-4 thread-0 singleCM-2 costs 6.326 s
+rank-3 transfer_ref costs 4.116
+rank-1 sum 43804387
+rank-1 ave 0.979246
+rank-1 thread-1 singleCM-1 costs 12.854 s
+rank-4 threadId-1 sort reference costs 2.407 s
+rank-2 threadId-1 sort reference costs 3.320 s
+rank-3 thread-1 communication costs 2.404
+rank-0 thread-1 communication costs 3.324
+rank-1 threadId-0 sort reference costs 2.122 s
+rank-5 transfer_ref costs 3.136
+rank-1 transfer_ref costs 3.745
+rank-0 threadId-1 sort reference costs 2.929 s
+rank-4 transfer_ref costs 3.177
+rank-0 transfer_ref costs 4.156
+rank-5 thread-1 communication costs 3.149
+rank-1 thread-1 communication costs 2.626
+rank-2 sum 40163547
+rank-2 ave 0.308042
+rank-2 thread-1 singleCM-3 costs 5.932 s
+rank-1 sum 26572375
+rank-1 ave 0.594025
+rank-1 thread-0 singleCM-2 costs 5.750 s
+rank-3 sum 43538307
+rank-3 ave 0.477903
+rank-3 thread-0 singleCM-2 costs 9.975 s
+rank-4 sum 29973097
+rank-4 ave 0.321724
+rank-4 thread-1 singleCM-3 costs 7.410 s
+rank-5 threadId-1 sort reference costs 2.582 s
+rank-0 sum 34995160
+rank-0 ave 0.320132
+rank-0 thread-1 singleCM-3 costs 5.003 s
+rank-4 thread-0 communication costs 4.834
+rank-0 thread-0 communication costs 3.815
+rank-3 threadId-1 sort reference costs 1.566 s
+rank-2 transfer_ref costs 3.259
+rank-1 threadId-1 sort reference costs 2.057 s
+rank-5 transfer_ref costs 3.945
+rank-1 transfer_ref costs 3.561
+rank-3 transfer_ref costs 3.690
+rank-0 threadId-0 sort reference costs 3.345 s
+rank-4 threadId-0 sort reference costs 3.754 s
+rank-5 thread-0 communication costs 3.178
+rank-2 thread-0 communication costs 3.808
+rank-3 sum 16876492
+rank-3 ave 0.324709
+rank-3 thread-1 singleCM-3 costs 4.911 s
+rank-3 thread-0 communication costs 3.143
+rank-1 thread-0 communication costs 3.241
+rank-5 sum 30985373
+rank-5 ave 0.313925
+rank-5 thread-1 singleCM-3 costs 6.049 s
+rank-2 threadId-0 sort reference costs 2.572 s
+rank-1 sum 25440712
+rank-1 ave 0.568727
+rank-1 thread-1 singleCM-3 costs 6.407 s
+rank-3 threadId-0 sort reference costs 2.210 s
+rank-5 threadId-0 sort reference costs 3.056 s
+rank-0 sum 38047262
+rank-0 ave 0.324695
+rank-0 thread-0 singleCM-4 costs 5.419 s
+rank-4 transfer_ref costs 3.305
+rank-0 transfer_ref costs 3.424
+rank-3 transfer_ref costs 3.768
+rank-5 transfer_ref costs 3.729
+rank-2 transfer_ref costs 3.260
+rank-1 threadId-0 sort reference costs 3.323 s
+rank-1 transfer_ref costs 3.831
+rank-3 sum 28701541
+rank-3 ave 0.327653
+rank-3 thread-0 singleCM-4 costs 4.054 s
+rank-5 thread-1 communication costs 2.730
+rank-0 thread-1 communication costs 3.050
+rank-0 5 singleCM costs 51.288 s
+rank-4 sum 42566404
+rank-4 ave 0.403416
+rank-4 thread-0 singleCM-4 costs 8.773 s
+rank-2 thread-1 communication costs 2.652
+rank-1 thread-1 communication costs 2.134
+rank-4 thread-1 communication costs 4.106
+rank-4 5 singleCM costs 54.580 s
+rank-3 thread-1 communication costs 3.718
+rank-3 5 singleCM costs 55.003 s
+rank-2 sum 30223581
+rank-2 ave 0.304385
+rank-2 thread-0 singleCM-4 costs 6.919 s
+rank-2 5 singleCM costs 51.684 s
+rank-0 threadId-1 sort reference costs 2.172 s
+rank-3 threadId-1 sort reference costs 2.910 s
+rank-2 threadId-1 sort reference costs 2.470 s
+rank-4 threadId-1 sort reference costs 3.143 s
+rank-5 sum 35475701
+rank-5 ave 0.311495
+rank-5 thread-0 singleCM-4 costs 7.876 s
+rank-5 5 singleCM costs 55.893 s
+rank-0 sum 26208470
+rank-0 ave 0.315757
+rank-0 thread-1 singleCM-5 costs 4.652 s
+rank-0 redistribute_R 62.007 s
+gpu-ib-16 ends at Tue Nov 24 14:51:15 2015
+
+rank-1 sum 40471279
+rank-1 ave 0.904735
+rank-1 thread-0 singleCM-4 costs 9.111 s
+rank-1 5 singleCM costs 61.989 s
+rank-5 threadId-1 sort reference costs 2.822 s
+rank-1 threadId-1 sort reference costs 1.117 s
+rank-2 sum 28660045
+rank-2 ave 0.307122
+rank-2 thread-1 singleCM-5 costs 6.959 s
+rank-2 redistribute_R 64.835 s
+gpu-ib-13 ends at Tue Nov 24 14:51:19 2015
+
+rank-3 sum 35466995
+rank-3 ave 0.389308
+rank-3 thread-1 singleCM-5 costs 7.973 s
+rank-3 redistribute_R 69.443 s
+gpu-ib-14 ends at Tue Nov 24 14:51:20 2015
+
+rank-1 sum 15823516
+rank-1 ave 0.353734
+rank-1 thread-1 singleCM-5 costs 4.405 s
+rank-1 redistribute_R 71.362 s
+gpu-ib-15 ends at Tue Nov 24 14:51:21 2015
+
+rank-4 sum 40756329
+rank-4 ave 0.386261
+rank-4 thread-1 singleCM-5 costs 9.251 s
+rank-4 redistribute_R 70.578 s
+gpu-ib-12 ends at Tue Nov 24 14:51:21 2015
+
+rank-5 sum 33589407
+rank-5 ave 0.318558
+rank-5 thread-1 singleCM-5 costs 10.489 s
+rank-5 redistribute_R 73.044 s
+gpu-ib-11 ends at Tue Nov 24 14:51:26 2015
+
+
+real    1m57.808s
+user    10m14.380s
+sys     0m27.958s
+

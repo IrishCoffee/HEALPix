@@ -1,0 +1,68 @@
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPID_nem_ofacm_init(): Init
+[3] MPID_nem_ofacm_init(): Init
+[5] MPID_nem_ofacm_init(): Init
+[2] MPID_nem_ofacm_init(): Init
+[4] MPID_nem_ofacm_init(): Init
+[0] MPI startup(): ofa data transfer mode
+[3] MPI startup(): ofa data transfer mode
+[5] MPI startup(): ofa data transfer mode
+[2] MPI startup(): ofa data transfer mode
+[4] MPI startup(): ofa data transfer mode
+[1] MPID_nem_ofacm_init(): Init
+[1] MPI startup(): ofa data transfer mode
+ref_N 200000000[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       39566    gpu-ib-16  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 1       1542     gpu-ib-15  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 2       8526     gpu-ib-13  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 3       57173    gpu-ib-14  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 4       19164    gpu-ib-12  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+[0] MPI startup(): 5       44631    gpu-ib-11  {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+ref_N 200000000
+ref_N 200000000
+sam_N ref_N 200000000
+sam_N ref_N 200000000
+sam_N [0] MPI startup(): I_MPI_DEBUG=5
+[0] MPI startup(): I_MPI_FABRICS=ofa
+sam_N 200000000
+--------------
+Rank 4 Processor_name gpu-ib-12
+------------------
+200000000
+--------------
+Rank 3 Processor_name gpu-ib-14
+------------------
+200000000
+--------------
+Rank 2 Processor_name gpu-ib-13
+------------------
+
+sam_N 200000000
+--------------
+Rank 5 Processor_name gpu-ib-11
+------------------
+200000000
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_DIST=10,20,20,10
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_MAP=mlx4_0:1
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_NUM=2
+gpu-ib-12 starts at Thu Jan  7 15:18:21 2016
+
+gpu-ib-14 starts at Thu Jan  7 15:18:21 2016
+
+gpu-ib-13 starts at Thu Jan  7 15:18:21 2016
+
+gpu-ib-11 starts at Thu Jan  7 15:18:21 2016
+
+--------------
+Rank 1 Processor_name gpu-ib-15
+------------------
+[0] MPI startup(): I_MPI_PIN_MAPPING=1:0 0
+gpu-ib-15 starts at Thu Jan  7 15:18:21 2016
+
+ref_N 200000000
+sam_N 200000000
+--------------
+Rank 0 Processor_name gpu-ib-16
+------------------
+gpu-ib-16 starts at Thu Jan  7 15:18:21 2016
+

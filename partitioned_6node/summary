@@ -1,0 +1,47 @@
+xjia@gpu-ib-16:~/HEALPix/partitioned_6node$sh run.sh
+sdss * sdss
+
+real    7m17.782s
+user    24m49.155s
+sys     2m10.505s
+2mass * 2mass
+
+real    2m11.041s
+user    8m37.062s
+sys     0m26.265s
+wise * wise
+
+real    3m43.958s
+user    14m14.376s
+sys     0m47.180s
+wise * 2mass
+
+real    3m10.146s
+user    12m47.716s
+sys     0m38.572s
+2mass * wise
+
+real    2m35.269s
+user    10m18.047s
+sys     0m28.175s
+wise * sdss
+
+real    5m22.758s
+user    15m54.221s
+sys     0m53.376s
+sdss * wise
+
+real    8m3.867s
+user    23m53.399s
+sys     2m5.328s
+2mass * sdss
+
+real    3m52.587s
+user    11m51.169s
+sys     0m41.238s
+sdss * 2mass
+
+real    6m9.623s
+user    20m20.679s
+sys     1m28.647s
+
